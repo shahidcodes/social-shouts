@@ -1,4 +1,6 @@
-# google-login
-A code to demonstrate google login for websites with the simplest code possible
+<h1> Social Shouts </h1> is a social shout out script php scripts. 
+Gives basic funtionality. Used my <a href="https://github.com/shahidkh4n/php-login-system">This Repo</a> as base and with Google Auth.
 
-Demo - http://packetcode.com/apps/google-login/
+Try Demo Here..
+ 
+<a href="http://shahidkamal.altervista.org/projects/socialshouts">Social Shouts</a>
