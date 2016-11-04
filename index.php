@@ -17,6 +17,7 @@ $google_auth   = new GoogleAuth($google_client);
 $google_auth->authenticateWithCode();
 // var_dump($_SESSION);
 $user = new User();
+
 // die();
 if ($user->isLogged()) {
     // echo "Logged In, <a href='logout.php'>Log out</a>";

@@ -48,6 +48,7 @@ class User{
 	{
 		if(!$username && !$password && $this->exists()){
 			Session::put($this->_session, $this->data()->id);
+			$this->_isLogged = True;
 			return true;
 		}else{
 			$user = $this->find($username); //find user in db

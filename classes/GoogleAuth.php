@@ -33,9 +33,7 @@ class GoogleAuth
 			// search user in database
 			$googleUser = $user->findByGoogleID($payload["google_id"]);
 			if ($user->isLogged()) {
-
-				Redirect::to("wall.php?data={$user->data()->id}");
-
+				Redirect::to("wall.php");
 			}else if (!$googleUser) {
 				// create user entry in database and login
 				$payload["username"] = $payload["email"];
@@ -52,7 +50,7 @@ class GoogleAuth
 				}
 				catch (Exception $e){
 					Session::flash("Error While Signing up In. Please Use Another Method");
-					Redirect::to("wall.php");
+					Redirect::to("index.php");
 				}
 				
 			}
