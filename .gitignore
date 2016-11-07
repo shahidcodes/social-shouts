@@ -1,0 +1,7 @@
+3rdPartyLibs/*
+3rPartyLibs/.gitignore
+3rdPartyLibs/*.md
+3rdPartyLibs/signin.php
+3rdPartyLibs/composer.lock
+!3rdPartyLibs/composer.json
+oauth2google.zip
