@@ -1,4 +1,4 @@
-3rdPartyLibs/*
+3rdPartyLibs/vendor/
 3rPartyLibs/.gitignore
 3rdPartyLibs/*.md
 3rdPartyLibs/signin.php
