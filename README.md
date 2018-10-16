@@ -1,6 +1,16 @@
-<h1> Social Shouts </h1>it is a social shout out script php scripts. 
-Gives basic funtionality. Used my <a href="https://github.com/shahidkh4n/php-login-system">This Repo</a> as base and with Google Auth.
+# Social Shouts
+#### Social network in PHP and MySql
+## Demo
+[http://shahidkamal.altervista.org/projects/socialshouts](http://shahidkamal.altervista.org/projects/socialshouts)
+## Features
+- Social Posts
+- Multi Language ([PHP Automatic Language Translator](https://github.com/shahidcodes/multiple-language-for-php-web-app))
+- Profile Management
+- Login/Registration with Google+
+- More yet to be implements 😉
 
-Try Demo Here..
- 
-<a href="http://shahidkamal.altervista.org/projects/socialshouts">Social Shouts</a>
+## Contribution
+Feel free to contribute. PR is always welcomed.
+
+Made with 🧡 and PHP  
+Reach out to me [@shahidcodes](https://twitter.com/shahidcodes)
